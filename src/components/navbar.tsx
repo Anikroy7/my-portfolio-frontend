@@ -37,7 +37,7 @@ export const Navbar = () => {
           <h2>anikkumeroy7@gmail.com</h2>
         </NavbarBrand>
         <NavbarItem >
-          <Button size="lg" color="primary" radius="full">CV</Button>
+          <Button size="md" className="font-semibold" color="primary" radius="full">DOWNLOAD CV</Button>
         </NavbarItem>
 
       </NavbarContent>

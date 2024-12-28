@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 const Banner = () => {
     const text = "Full-Stack Engineer."; 
     return (
-        <div className=" min-h-screen flex flex-col justify-center items-center text-center">
+        <div className="min-h-screen flex flex-col justify-center items-center text-center">
             <div className="relative">
                 {/* Profile Image */}
                 <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-white shadow-lg mx-auto">
@@ -41,15 +41,15 @@ const Banner = () => {
                     className="text-gray-700"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
-                    transition={{ delay: 0.2, duration: 1 }} // Fade-in effect
+                    transition={{ delay: 0.2, duration: 1 }}    
                 >
                     <motion.span
                         initial={{ width: 0 }}
                         animate={{ width: "auto" }}
                         transition={{
-                            duration: 2, // Duration of typing effect
+                            duration: 2, 
                             ease: "easeInOut",
-                            delay: 0.3, // Delay before typing starts
+                            delay: 0.3, 
                         }}
                         style={{
                             display: 'inline-block',
