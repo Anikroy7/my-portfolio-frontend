@@ -26,11 +26,6 @@ export default {
             background: "#efedec"
           }
         },
-        dark: {
-          colors: {
-            primary: "#9353d3",
-          }
-        },
       },
     })]
   ,
