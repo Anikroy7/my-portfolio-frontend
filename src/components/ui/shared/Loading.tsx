@@ -23,9 +23,7 @@ function Loading() {
             loading={true}
             size={20}
           />
-          <p className="text-white mt-4 font-medium text-lg">
-            Loading, please wait...
-          </p>
+          <p className=" mt-4 font-medium text-lg">Loading, please wait...</p>
         </div>
       </div>
     </div>

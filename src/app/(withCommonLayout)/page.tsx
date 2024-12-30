@@ -10,19 +10,18 @@ import Projects from "@/src/components/ui/homepage/Projects";
 import ScrollToTop from "@/src/components/ui/homepage/ScrollToTop";
 import Skills from "@/src/components/ui/homepage/Skills";
 
-
 export default function Home() {
   return (
     <>
       <Banner />
       <AboutMe />
-      <Experience/>
-      <Skills/>
-      <Projects/>
-      <Contact/>
-      <Blogs/>
+      <Experience />
+      <Skills />
+      <Projects />
+      <Contact />
+      <Blogs />
       <ScrollToTop />
-      <Footer/>
+      <Footer />
     </>
   );
 }

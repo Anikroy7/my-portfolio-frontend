@@ -13,18 +13,24 @@ export const siteConfig = {
       label: "About",
       href: "/about",
     },
-   
   ],
   navMenuItems: [
     {
       label: "Home",
       href: "/",
     },
+    {
+      label: "All blogs",
+      href: "/allBlogs",
+    },
 
     {
-      label: "About",
-      href: "/about",
+      label: "Github",
+      href: "https://github.com/Anikroy7",
     },
-    
+    {
+      label: "Linkedin",
+      href: "https://www.linkedin.com/in/anik-roy-a14185241",
+    },
   ],
 };

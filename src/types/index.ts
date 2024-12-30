@@ -19,23 +19,21 @@ export type TExperience = {
   totalYears: string;
   designation: string;
   description: string;
-  createdAt: string
+  createdAt: string;
 };
 
-
 export type TSkill = {
-  name: string
+  name: string;
   id: string;
-  logo: string
-}
+  logo: string;
+};
 export type TSkillTech = {
   technology: {
-    name: string
+    name: string;
     id: string;
-    logo: string
-  }
-}
-
+    logo: string;
+  };
+};
 
 export type Technology = {
   id: string;
@@ -56,11 +54,22 @@ type ProjectLink = {
 export type TProject = {
   id?: string;
   name: string;
-  images: string[]; 
+  images: string[];
   description: string;
   category?: string;
   createdAt?: string;
   updatedAt?: string;
   projectTechnology: TSkillTech[];
   projectLink: ProjectLink[];
+};
+
+export type TBlog = {
+  categories: string[];
+  createdAt: string;
+  description: string;
+  id: string;
+  image: string;
+  isDeleted: boolean;
+  title: string;
+  updatedAt: string;
 };
